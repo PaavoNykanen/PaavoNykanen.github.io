@@ -10,9 +10,8 @@ function App() {
         <p>
           Paavo Nykänen
         </p>
-        <p
-        >
-           Testi
+        <p>
+          Kotisivut
         </p>
       </header>
     </div>
