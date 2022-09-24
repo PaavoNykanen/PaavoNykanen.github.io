@@ -11,7 +11,7 @@ function App() {
           Paavo Nykänen
         </p>
         <p>
-          Testi
+          Testi 2
         </p>
       </header>
     </div>
