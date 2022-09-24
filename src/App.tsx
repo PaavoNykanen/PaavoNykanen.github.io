@@ -12,7 +12,7 @@ function App() {
         </p>
         <p
         >
-          Kotisivut
+           Testi
         </p>
       </header>
     </div>
