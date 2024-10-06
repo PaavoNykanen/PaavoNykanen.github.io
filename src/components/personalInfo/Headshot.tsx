@@ -1,5 +1,5 @@
 import { Flex, Image } from 'antd';
-import headshot from './../assets/skeleton.jpg'; // Import the local image file
+import headshot from '../../assets/omakuva.jpg'; // Import the local image file
 
 const Headshot = () => {
   return (
