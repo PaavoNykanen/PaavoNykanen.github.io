@@ -1,7 +1,7 @@
 import { Flex, Typography } from 'antd';
 import { Footer } from 'antd/es/layout/layout';
 import { LinkedinOutlined, GithubOutlined, InstagramOutlined } from '@ant-design/icons';
-import LinkIcon from '../components/common/LinkIcon';
+import LinkIcon from '../../components/common/LinkIcon';
 
 const source = 'https://github.com/PaavoNykanen/PaavoNykanen.github.io';
 const linkedInUrl = 'https://www.linkedin.com/in/paavo-nyk%C3%A4nen-82a56520a/';
@@ -13,7 +13,7 @@ const PageFooter = () => {
     <Footer
       style={{
         textAlign: 'center',
-        backgroundColor: '#736e67'
+        backgroundColor: '#736e67',
       }}>
       <Flex vertical style={{ justifyContent: 'center' }}>
         <Flex style={{ justifyContent: 'center' }}>
@@ -39,6 +39,7 @@ const PageFooter = () => {
         <Typography
           style={{
             fontSize: 14,
+            color: 'white',
           }}>
           Source: <a target="_blank" href={source}>PaavoNykanen.github.io</a>
         </Typography>

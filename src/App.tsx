@@ -1,12 +1,17 @@
 import { Flex } from 'antd';
-import PageLayout from './layout/PageLayout';
-import PersonalInfoSection from './components/personalInfo/PersonalnfoSection';
+import PageLayout from './layout/page/PageLayout';
+import PersonalInfoSection from './layout/sections/PersonalnfoSection';
+import CareerSection from './layout/sections/CareerSection';
+import EducationSection from './layout/sections/EducationSection';
 
 function App() {
   return (
     <PageLayout>
-      <Flex style={{ height: '100vh', backgroundColor: '#3C3D37' }}>
+      <Flex vertical style={{ backgroundColor: '#3C3D37' }}>
         <PersonalInfoSection />
+        <CareerSection />
+        <EducationSection />
+        {/* <TimelineSection /> */}
       </Flex>
     </PageLayout>
   );

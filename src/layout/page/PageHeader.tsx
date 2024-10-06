@@ -15,7 +15,7 @@ const PageHeader = ({
       backgroundColor: '#1E201E',
     }}>
       <Title level={3} style={{
-        color: 'grey',
+        color: '#736e67',
         padding: '0',
         alignContent: 'center',
       }}>

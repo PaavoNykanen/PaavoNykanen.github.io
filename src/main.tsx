@@ -10,7 +10,7 @@ createRoot(document.getElementById('root')!).render(
       theme={{
         components: {
           Typography: {
-            colorText: 'white',
+            colorText: 'black',
             fontSize: 16,
             fontSizeHeading1: 30,
             fontSizeHeading2: 26,
