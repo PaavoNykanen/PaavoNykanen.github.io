@@ -1,5 +1,4 @@
 import { Flex, Typography } from 'antd';
-import { Footer } from 'antd/es/layout/layout';
 import { LinkedinOutlined, GithubOutlined, InstagramOutlined } from '@ant-design/icons';
 import LinkIcon from '../../components/common/LinkIcon';
 
@@ -10,41 +9,31 @@ const instagramUrl = 'https://www.instagram.com/paavoli/profilecard/?igsh=eDIwNX
 
 const PageFooter = () => {
   return (
-    <Footer
-      style={{
-        textAlign: 'center',
-        backgroundColor: '#736e67',
-      }}>
-      <Flex vertical style={{ justifyContent: 'center' }}>
-        <Flex style={{ justifyContent: 'center' }}>
-          <LinkIcon
-            icon={(<LinkedinOutlined aria-label='LinkedIn' style={{ fontSize: '20px' }} />)}
-            href={linkedInUrl}
-            style={{ paddingRight: '10px' }}
-            isExternal
-          />
-          <LinkIcon
-            icon={(<GithubOutlined aria-label='Github' style={{ fontSize: '20px' }} />)}
-            href={githubUrl}
-            style={{ paddingRight: '10px' }}
-            isExternal
-          />
-          <LinkIcon
-            icon={(<InstagramOutlined aria-label='Instagram' style={{ fontSize: '20px' }} />)}
-            href={instagramUrl}
-            style={{ paddingRight: '10px' }}
-            isExternal
-          />
-        </Flex>
-        <Typography
-          style={{
-            fontSize: 14,
-            color: 'white',
-          }}>
-          Source: <a target="_blank" href={source}>PaavoNykanen.github.io</a>
-        </Typography>
+    <Flex vertical className='p-3'>
+      <Flex className='justify-center'>
+        <LinkIcon
+          icon={(<LinkedinOutlined aria-label='LinkedIn'/>)}
+          href={linkedInUrl}
+          style={{ paddingRight: '10px' }}
+          isExternal
+        />
+        <LinkIcon
+          icon={(<GithubOutlined aria-label='Github' />)}
+          href={githubUrl}
+          style={{ paddingRight: '10px' }}
+          isExternal
+        />
+        <LinkIcon
+          icon={(<InstagramOutlined aria-label='Instagram' />)}
+          href={instagramUrl}
+          style={{ paddingRight: '10px' }}
+          isExternal
+        />
       </Flex>
-    </Footer>
+      <Typography className='text-center'>
+        Source: <a target="_blank" className='text-blue-700 font-sans' href={source}>PaavoNykanen.github.io</a>
+      </Typography>
+    </Flex>
   );
 };
 

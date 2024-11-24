@@ -6,6 +6,7 @@ export interface CarouselInfoItem {
     title: string;
     subTitle: string;
     description: string;
+    image?: string;
 }
 
 interface InfoCarouselProps extends CarouselProps {
@@ -28,9 +29,11 @@ const InfoCarousel: FC<InfoCarouselProps> = ({items, style}) => {
       infinite={false}>
       {items.map((item) => (
         <CarouselInfo
+          key={item.title}
           title={item.title}
           subTitle={item.subTitle}
           description={item.description}
+          image={item.image}
         />
       ))}
     </Carousel>

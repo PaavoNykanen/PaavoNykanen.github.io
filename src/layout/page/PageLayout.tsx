@@ -7,15 +7,9 @@ const PageLayout = ({
 }: { children: React.ReactNode }) => {
 
   return (
-    <Layout
-      style={{
-        display: 'flex',
-        flexDirection: 'column'
-      }}>
-      <PageHeader title={'Paavo\'s homepage'} />
-      <Layout>
-        {children}
-      </Layout>
+    <Layout className="min-h-screen flex flex-col bg-gradient-to-br from-yellow-300 to-pink-500">
+      <PageHeader/>
+      {children}
       <PageFooter />
     </Layout>
   );

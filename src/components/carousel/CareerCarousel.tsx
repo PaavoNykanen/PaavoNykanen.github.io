@@ -7,7 +7,7 @@ const CareerCarousel = () => {
     <InfoCarousel
       items={careerInfo}
       arrows
-      infinite={false}
+      infinite={true}
     />
   );
 };

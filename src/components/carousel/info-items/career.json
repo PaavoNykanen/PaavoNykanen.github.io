@@ -2,11 +2,13 @@
     {
         "title": "Software developer trainee - Akamon Innovations Oy",
         "subTitle": "01.06.2021 - 01.08.2021",
-        "description": "My first IT JOB!!!"
+        "description": "My first IT JOB!!!",
+        "picture": ""
     },
     {
         "title": "Software developer - Akamon Innovations Oy",
         "subTitle": "01.01.2021 - present",
-        "description": "Started as junior after trainee period, now working as a mid level full stack developer"
+        "description": "Started as junior after trainee period, now working as a mid level full stack developer",
+        "background": ""
     }
 ]

@@ -1,29 +1,21 @@
-import { Typography } from 'antd';
-import { Header } from 'antd/es/layout/layout';
+import { Typography, Flex } from 'antd';
+import { ThemeButton } from '../../components/common/ThemeButton';
 
-interface PageHeaderProps {
-  title: string;
-}
-
-const PageHeader = ({
-  title
-}: PageHeaderProps) => {
-  const { Title } = Typography;
+const PageHeader = () => {
+  const { Text } = Typography;
   return (
-    <Header style={{
-      textAlign: 'left',
-      backgroundColor: '#1E201E',
-    }}>
-      <Title level={3} style={{
-        color: '#736e67',
-        padding: '0',
-        alignContent: 'center',
-      }}>
-        {title}
-      </Title>
-    </Header>
+    <Flex className="p-3">
+      <Flex vertical>
+        <Text className='text-3xl font-sans'>
+          Paavo Nykänen
+        </Text>
+        <Text className='text-2xl'>
+          Software Developer
+        </Text>
+      </Flex>
+      <ThemeButton text="Contact me!" />
+    </Flex>
   );
-
 };
 
 export default PageHeader;
