@@ -2,7 +2,7 @@ import { Flex } from 'antd';
 import BasicInfoList from '../../components/personal-info/BasicInfoList';
 import Headshot from '../../components/personal-info/Headshot';
 
-const PersonalInfoSection = () => {
+const PersonalInfo = () => {
 
   return (
     <Flex>
@@ -12,4 +12,4 @@ const PersonalInfoSection = () => {
   );
 };
 
-export default PersonalInfoSection;
+export default PersonalInfo;

@@ -2,13 +2,13 @@
 import { Flex } from 'antd';
 import EducationCarousel from '../../components/carousel/EducationCarousel';
 
-const EducationSection = () => {
+const Education = () => {
 
   return (
-    <Flex vertical style={{ margin: '10px' }}>
+    <Flex vertical>
       <EducationCarousel />
     </Flex>
   );
 };
 
-export default EducationSection;
+export default Education;

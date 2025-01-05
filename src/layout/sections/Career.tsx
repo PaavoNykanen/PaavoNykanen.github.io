@@ -2,7 +2,7 @@
 import { Flex } from 'antd';
 import CareerCarousel from '../../components/carousel/CareerCarousel';
 
-const CareerSection = () => {
+const Career = () => {
 
   return (
     <Flex vertical>
@@ -11,4 +11,4 @@ const CareerSection = () => {
   );
 };
 
-export default CareerSection;
+export default Career;

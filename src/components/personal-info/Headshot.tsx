@@ -3,7 +3,7 @@ import headshot from '../../assets/omakuva.jpg'; // Import the local image file
 
 const Headshot = () => {
   return (
-    <Flex style={{ margin: '10px' }}>
+    <Flex>
       <Image
         width={200}
         src={headshot}

@@ -2,7 +2,7 @@
 import { Flex } from 'antd';
 import CareerTimeline from '../../components/timeline/CareerTimeline';
 
-const TimelineSection = () => {
+const Timeline = () => {
 
   return (
     <Flex vertical>
@@ -11,4 +11,4 @@ const TimelineSection = () => {
   );
 };
 
-export default TimelineSection;
+export default Timeline;
