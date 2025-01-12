@@ -3,6 +3,7 @@ import careerInfoJson from './info-items/career.json';
 
 const CareerCarousel = () => {
   const careerInfo = careerInfoJson;
+
   return (
     <InfoCarousel
       items={careerInfo}

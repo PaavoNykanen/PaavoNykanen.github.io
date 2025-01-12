@@ -14,11 +14,6 @@ const HeaderDivider: FC<DividerHeaderProps> = ({
   return (
     <Divider
       orientation="left"
-      style={{
-        borderColor: '#1E201E',
-        margin: '0',
-        padding: '0',
-      }}
     >
       <Title level={titleLevel}>{title}</Title>
     </Divider>

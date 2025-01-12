@@ -1,29 +1,17 @@
-import { Typography } from 'antd';
-import { Header } from 'antd/es/layout/layout';
+import { Typography, Flex } from 'antd';
 
-interface PageHeaderProps {
-  title: string;
-}
-
-const PageHeader = ({
-  title
-}: PageHeaderProps) => {
-  const { Title } = Typography;
+const PageHeader = () => {
+  const { Text } = Typography;
   return (
-    <Header style={{
-      textAlign: 'left',
-      backgroundColor: '#1E201E',
-    }}>
-      <Title level={3} style={{
-        color: '#736e67',
-        padding: '0',
-        alignContent: 'center',
-      }}>
-        {title}
-      </Title>
-    </Header>
+    <Flex vertical className='p-3'>
+      <Text className='text-xl sm:text-2xl md:text-3xl lg:text-4xl font-oswald'>
+        Paavo Nykänen
+      </Text>
+      <Text className='text-lg sm:text-xl lg:text-2xl font-oswald'>
+        Software Developer
+      </Text>
+    </Flex>
   );
-
 };
 
 export default PageHeader;

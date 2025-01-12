@@ -8,7 +8,7 @@ const EducationCarousel = () => {
     <InfoCarousel
       items={educationInfo}
       arrows
-      infinite={false}
+      infinite={true}
     />
   );
 };
