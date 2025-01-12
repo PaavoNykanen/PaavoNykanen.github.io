@@ -11,7 +11,7 @@ export default {
         lato: ['Lato', 'sans-serif'],
       },
       fontSize: {
-        'sm': '12px',   // Customize small font size
+        'sm': '14px',   // Customize small font size
         'base': '16px', // Customize base font size
         'md': '20px',   // Customize medium font size
         'lg': '26px',   // Customize large font size

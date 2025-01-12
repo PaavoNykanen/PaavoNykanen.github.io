@@ -9,9 +9,11 @@ export const ThemeButton = ({
   return (
     <Button
       className={`font-lato
-      bg-purple-500 border-purple-400 text-black
+      bg-gradient-to-br from-purple-500 to-blue-500
+      border-purple-300
         text-base font-semibold rounded-2xl
-      hover:bg-purple-600 hover:border-purple-500
+      hover:from-blue-500 hover:to-purple-500
+      hover:text-red-200
       active:bg-purple-500 active:border-purple-600
         ${className}`}
       onClick={onClick}

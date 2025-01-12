@@ -1,13 +1,18 @@
-import { Flex, Typography } from 'antd';
+import { Card, Flex, Typography } from 'antd';
 
 const Skills = () => {
   const { Text } = Typography;
 
   return (
     <Flex vertical className='m-3 flex-col' id="skills">
-      <Text className='text-lg md:text-md lg:text-lg xl:text-xl font-oswald mb-5'>
-        My skill and experience
+      <Text className='text-lg sm:text-xl font-oswald mb-5'>
+        Skills and experience
       </Text>
+      <Card className='m-10 bg-orange-100 border-orange-200'>
+        <>
+          Under construction
+        </>
+      </Card>
     </Flex>
   );
 };
