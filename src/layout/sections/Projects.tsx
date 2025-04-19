@@ -3,7 +3,6 @@ import BasicInfoList from '../../components/personal-info/BasicInfoList';
 import Headshot from '../../components/personal-info/Headshot';
 
 const PersonalInfo = () => {
-
   return (
     <Flex>
       <Headshot />

@@ -14,11 +14,11 @@ const IconButton = ({
     <Flex
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
-      className='w-full'
+      className="w-full"
     >
       <Button type="text" onClick={onClick}>
         {React.cloneElement(icon, { spin: isHovering, className: 'text-md sm:text-lg font-lato' })}
-        <Text className='text-base sm:text-md font-lato'>{text}</Text>
+        <Text className="text-base sm:text-md font-lato">{text}</Text>
       </Button>
     </Flex>
   );

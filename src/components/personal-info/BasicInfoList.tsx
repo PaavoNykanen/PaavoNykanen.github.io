@@ -16,7 +16,7 @@ const BasicInfoList = () => {
       <List
         size="small"
         dataSource={data}
-        renderItem={(item) => <List.Item>{item}</List.Item>}
+        renderItem={item => <List.Item>{item}</List.Item>}
       />
     </Flex>
   );

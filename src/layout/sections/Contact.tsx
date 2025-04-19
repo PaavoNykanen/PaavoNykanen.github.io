@@ -31,43 +31,43 @@ const Contact = () => {
   };
 
   return (
-    <Flex className='m-3 flex-col' id="contact">
-      <Text className='text-lg sm:text-xl font-oswald'>
+    <Flex className="m-3 flex-col" id="contact">
+      <Text className="text-lg sm:text-xl font-oswald">
         Contact me!
       </Text>
-      <Card className='m-10 bg-orange-100 border-orange-200'>
-        <Flex className='m-3 flex-col md:flex-row justify-center'>
-          <Flex className='justify-center'>
-            <Headshot className='size-auto sm:size-80' />
+      <Card className="m-10 bg-orange-100 border-orange-200">
+        <Flex className="m-3 flex-col md:flex-row justify-center">
+          <Flex className="justify-center">
+            <Headshot className="size-auto sm:size-80" />
           </Flex>
-          <Flex className='space-y-5 m-3 flex-col'>
-            <Tooltip placement='topLeft' title={'Copied!'} open={phoneTooltip}>
+          <Flex className="space-y-5 m-3 flex-col">
+            <Tooltip placement="topLeft" title="Copied!" open={phoneTooltip}>
               <IconButton
-                icon={<PhoneOutlined aria-label='Phone' />}
+                icon={<PhoneOutlined aria-label="Phone" />}
                 text={phoneNumber}
                 onClick={() => activatePhoneTooltip()}
               />
-            </Tooltip >
-            <Tooltip placement='topLeft' title={'Copied!'} open={emailTooltip}>
+            </Tooltip>
+            <Tooltip placement="topLeft" title="Copied!" open={emailTooltip}>
               <IconButton
-                icon={<MailOutlined aria-label='Email' />}
+                icon={<MailOutlined aria-label="Email" />}
                 text={email}
                 onClick={() => activateEmailTooltip()}
               />
-            </Tooltip >
+            </Tooltip>
             <IconButton
-              icon={<LinkedinOutlined aria-label='LinkedIn' />}
+              icon={<LinkedinOutlined aria-label="LinkedIn" />}
               text={'Let\'s connect!'}
               onClick={() => window.open(linkedInUrl, '_blank')}
             />
             <IconButton
-              icon={<GithubOutlined aria-label='Github' />}
-              text={'My projects!'}
+              icon={<GithubOutlined aria-label="Github" />}
+              text="My projects!"
               onClick={() => window.open(githubUrl, '_blank')}
             />
             <IconButton
-              icon={<InstagramOutlined aria-label='Instagram' />}
-              text={'My life!'}
+              icon={<InstagramOutlined aria-label="Instagram" />}
+              text="My life!"
               onClick={() => window.open(instagramUrl, '_blank')}
             />
           </Flex>

@@ -1,37 +1,40 @@
 import { Carousel, CarouselProps } from 'antd';
-import { FC } from 'react';
+import { CSSProperties, FC } from 'react';
 import CarouselInfo from './CarouselInfo';
 
 export interface CarouselInfoItem {
-    title: string;
-    subTitle: string;
-    description: string;
-    image?: string;
+  title: string
+  subTitle: string
+  summary: string
+  description: string
+  image?: string
 }
 
 interface InfoCarouselProps extends CarouselProps {
-  items: CarouselInfoItem[];
-  style?: React.CSSProperties;
+  items: CarouselInfoItem[]
+  style?: CSSProperties
 }
 
-const InfoCarousel: FC<InfoCarouselProps> = ({items, style}) => {
+const InfoCarousel: FC<InfoCarouselProps> = ({ items, style }) => {
   return (
     <Carousel
-      style={{
-        ...style,
-        marginRight: '20px',
-        marginLeft: '20px',
-        paddingRight: '50px',
-        paddingLeft: '50px',
-        paddingBottom: '20px'
-      }}
       arrows
-      infinite={false}>
-      {items.map((item) => (
+      infinite={false}
+      style={{
+        marginRight: 10,
+        marginLeft: 10,
+        paddingRight: 40,
+        paddingLeft: 40,
+        paddingBottom: 20,
+        ...style,
+      }}
+    >
+      {items.map(item => (
         <CarouselInfo
           key={item.title}
           title={item.title}
           subTitle={item.subTitle}
+          summary={item.summary}
           description={item.description}
           image={item.image}
         />

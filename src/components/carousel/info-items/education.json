@@ -1,20 +1,23 @@
 [
     {
-        "title": "Bachelor of science - University of Jyväskylä",
-        "subTitle": "2019 - 2022",
-        "description": "Bachelor of science in information technology and computer science, minor in mathematics",
-        "picture": ""
+        "title": "Master of science - University of Jyväskylä",
+        "subTitle": "2022 - 2024",
+        "summary": "Graduated from JYU with a master's degree in information technology and computer science",
+        "description": "Comign soon!",
+        "image": "ruusu-edit.jpg"
     },
     {
         "title": "Erasmus student exchange - University of Twente",
         "subTitle": "02.2023 - 06.2023",
-        "description": "Half a year student exchange at the University of Twente in the Netherlands",
-        "picture": "utwente.jpg"
+        "summary": "I did a half a year student exchange at the University of Twente in the Netherlands. I studied courses related to software development and data science.",
+        "description": "Coming soon!",
+        "image": "twente.jpg"
     },
     {
-        "title": "Master of science - University of Jyväskylä",
-        "subTitle": "2022 - 2024",
-        "description": "Graduated from JYU",
-        "picture": ""
+        "title": "Bachelor of science - University of Jyväskylä",
+        "subTitle": "2019 - 2022",
+        "summary": "I graduated from JYU with a bachelor's degree in information technology and computer science and a minor in mathematics. My studies included courses related to software development, programming, IoT, data science and some machine learning.",
+        "description": "",
+        "image": "jm-kyykka-edit.jpg"
     }
 ]

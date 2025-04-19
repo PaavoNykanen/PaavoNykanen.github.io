@@ -1,14 +1,16 @@
 [
     {
-        "title": "Software developer trainee - Akamon Innovations Oy",
-        "subTitle": "01.06.2021 - 01.08.2021",
-        "description": "My first IT JOB!!!",
-        "picture": ""
-    },
-    {
         "title": "Software developer - Akamon Innovations Oy",
         "subTitle": "01.01.2021 - present",
-        "description": "Started as junior after trainee period, now working as a mid level full stack developer",
-        "background": ""
+        "summary": "After my brief trainee period, I was hired as a part-time junior software developer to work along side my studies. At this point my project also changed to Akamon's Online web application Sierra. In this project I took part in developing the front-end web application and admin UI with React and Typescript. I also worked on the back-end dataplatform which was a distributed cloud-based system that was built with AWS services and serverless architecture. I was responsible for developing the back-end services and API's. The services were made mostly with Typescript and Node and C# and .NET. I also got to work on the service architecture and CI/CD which were done with AWS CDK components. I also worked on some integrations for importing or exporting data to or from the customers CRM. In 2024 I also did my master's thesis at Akamon Innovations Oy with a subject of creating a framework and tools for error monitoring the dataplatforms services. After my graduation I was promoted to a mid level full stack developer role.",
+        "description": "Started as a junior software developer during my studies after the first trainee period and got promoted to a mid level full stack developer role after graduating university. I have been a part of a software development team that is developing and maintaining different customer's Sierra web-applications. My work continued in full-stack fashion, this time also getting to work with AWS cloud resources along with the front-end UI and back-end Dataplatform system. In the front-end side my tasks have included creating new components for an internal UI component library, developing new features and fixing bugs in many different Sierra projects, adding UI component tests and developing the Admin user interface. In the back-end my work has included creating REST-API and GraphQL endpoints, adding event-handlers and readers to the dataplatform's different services, data modeling and handling and unit testing. I have also done some integrations work for importing or exporting data to or from the customers CRM. I have also debugged and fixed issues in the CI/CD pipelines of the Sierra projects and back-end services. Some of my accomplishments include developing a custom CDK component for adding error monitoring to the given back-end service, refactoring and developing the process of ordering an electricity contract from the UI to the back-end to integrations, adding many user and customer management features to the Admin UI and increasing back-end unit test coverage in many services by over 50%.",
+        "image": ""
+    },
+    {
+        "title": "Software developer trainee - Akamon Innovations Oy",
+        "subTitle": "01.06.2021 - 01.08.2021",
+        "summary": "I started my software developer career as a trainee at Akamon Innovations Oy. I was responsible for developing the companys chatbot application 'Iris' and it's customer service UI. In this project I gained a lot of experience with React and web development in general. I also got to work with Facebooks Wit.ai for intent detection and conversation handling. I also worked on the back-end service which was made with C# and .NET Core. Read more about my first steps in software development from the button below.",
+        "description": "Started as a software developer trainee, at Akamon Innovations Oy in the summer of 2021. I was responsible for developing the companys chatbot application 'Iris' and it's customer service UI. My tasks included developing the customer service UI, backend functionalities and conversation handling and training intent detection for facebooks Wit.ai. Some of my accomplishments included developing entire new conversation workflows, adding a timer based idle chat status and improving the conversation UI for the customer service users.",
+        "image": ""
     }
 ]

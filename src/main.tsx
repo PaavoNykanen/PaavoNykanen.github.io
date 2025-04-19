@@ -3,11 +3,21 @@ import { createRoot } from 'react-dom/client';
 import App from './App.tsx';
 import './index.css';
 import { StyleProvider } from '@ant-design/cssinjs';
+import { ConfigProvider } from 'antd';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <StyleProvider layer>
-      <App />
-    </StyleProvider>
+    <ConfigProvider theme={{
+      components: {
+        Carousel: {
+          arrowOffset: 0,
+        },
+      },
+    }}
+    >
+      <StyleProvider layer>
+        <App />
+      </StyleProvider>
+    </ConfigProvider>
   </StrictMode>,
 );

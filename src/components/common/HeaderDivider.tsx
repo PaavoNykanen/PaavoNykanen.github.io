@@ -2,13 +2,13 @@ import { Divider, DividerProps, Typography } from 'antd';
 import { FC } from 'react';
 
 interface DividerHeaderProps extends DividerProps {
-    title: string;
-    titleLevel: 1 | 5 | 2 | 3 | 4 | undefined;
+  title: string
+  titleLevel: 1 | 5 | 2 | 3 | 4 | undefined
 }
 
 const HeaderDivider: FC<DividerHeaderProps> = ({
   title,
-  titleLevel
+  titleLevel,
 }) => {
   const { Title } = Typography;
   return (
