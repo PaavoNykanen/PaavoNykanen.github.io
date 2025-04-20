@@ -35,11 +35,13 @@ const CarouselInfo: FC<CarouselInfoProps> = ({
       <Flex className="flex-col xl:flex-row">
         {image && image.length > 0
           && (
-            <Image
-              className="h-52 sm:h-96 pr-5"
-              preview={false}
-              src={'src/assets/' + image}
-            />
+            <Flex className="mr-4 h-72 max-w-full min-w-72">
+              <Image
+                className="h-full max-w-full object-contain"
+                preview={false}
+                src={'src/assets/' + image}
+              />
+            </Flex>
           )}
         <Paragraph
           className="text-sm sm:text-md font-lato p-0 m-0"
