@@ -39,7 +39,6 @@ const CarouselInfo: FC<CarouselInfoProps> = ({
               <img
                 className="h-40 md:h-56 lg:h-64 w-auto max-w-full object-cover rounded-xl shadow-md"
                 src={`src/assets/${image}`}
-                alt={title}
               />
             </Flex>
           )}
