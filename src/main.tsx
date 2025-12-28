@@ -20,8 +20,8 @@ createRoot(document.getElementById('root')!).render(
       <StyleProvider layer>
         <BrowserRouter>
           <Routes>
-            <Route path="/*" element={<App />} />
             <Route path="/sipsi-countdown" element={<SipsiCountdown />} />
+            <Route path="/*" element={<App />} />
           </Routes>
         </BrowserRouter>
       </StyleProvider>
