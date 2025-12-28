@@ -4,7 +4,7 @@ import App from './routes/App.tsx';
 import './index.css';
 import { StyleProvider } from '@ant-design/cssinjs';
 import { ConfigProvider } from 'antd';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import SipsiCountdown from './routes/SipsiCountdown.tsx';
 
 createRoot(document.getElementById('root')!).render(
@@ -18,12 +18,13 @@ createRoot(document.getElementById('root')!).render(
     }}
     >
       <StyleProvider layer>
-        <BrowserRouter>
+        {/* Use hash router for github pages. Once hosting changes, switch to BrowserRouter */}
+        <HashRouter>
           <Routes>
             <Route path="/sipsi-countdown" element={<SipsiCountdown />} />
             <Route path="/*" element={<App />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </StyleProvider>
     </ConfigProvider>
   </StrictMode>,
