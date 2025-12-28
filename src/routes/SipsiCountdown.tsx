@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import './SipsiCountdown.css';
-import SipsiCountdownTimer from '../components/sipsi-countdown/timer';
+import SipsiCountdownTimer from '../components/sipsi-countdown/SipsiCountdownTimer';
 import Celebration from '../components/sipsi-countdown/Celebration';
 
 function SipsiCountdown() {
