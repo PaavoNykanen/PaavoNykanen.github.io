@@ -1,4 +1,4 @@
-import { Slider, SliderSingleProps } from 'antd';
+import { Slider, type SliderSingleProps } from 'antd';
 
 const CareerTimeline = () => {
   const items: SliderSingleProps['marks'] = {

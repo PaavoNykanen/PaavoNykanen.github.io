@@ -1,5 +1,5 @@
 import { Flex, Typography, Image, Modal, Button } from 'antd';
-import { FC, useState } from 'react';
+import { type FC, useState } from 'react';
 import { ThemeButton } from './ThemeButton';
 
 export interface CarouselInfoProps {
@@ -39,7 +39,7 @@ const CarouselInfo: FC<CarouselInfoProps> = ({
               <Image
                 className="h-full max-w-full object-contain"
                 preview={false}
-                src={'src/assets/' + image}
+                src={`src/assets/${image}`}
               />
             </Flex>
           )}

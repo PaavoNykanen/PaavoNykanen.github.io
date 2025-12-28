@@ -1,5 +1,5 @@
 import { Image, Tooltip } from 'antd';
-import { FC } from 'react';
+import type { FC } from 'react';
 
 export type SkillIconData = {
   src: string
@@ -14,20 +14,18 @@ interface SkillIconProps {
 
 const SkillIcon: FC<SkillIconProps> = ({
   iconData,
-}) => {
-  return (
-    <Tooltip
-      placement="top"
-      title={iconData.tooltip}
-    >
-      <Image
-        className="h-12 w-12 object-contain m-2"
-        preview={false}
-        src={iconData.src}
-        alt={iconData.alt}
-      />
-    </Tooltip>
-  );
-};
+}) => (
+  <Tooltip
+    placement="top"
+    title={iconData.tooltip}
+  >
+    <Image
+      className="h-12 w-12 object-contain m-2"
+      preview={false}
+      src={iconData.src}
+      alt={iconData.alt}
+    />
+  </Tooltip>
+);
 
 export default SkillIcon;

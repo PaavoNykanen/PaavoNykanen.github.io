@@ -1,12 +1,11 @@
-import { FC } from 'react';
-import { SkillIconData } from '../common/SkillIcon';
+import type { FC } from 'react';
 import csharpSVG from '../../assets/skills/csharp.svg';
 import javaSVG from '../../assets/skills/java.svg';
 import pythonSVG from '../../assets/skills/python.svg';
 import typescriptSVG from '../../assets/skills/typescript.svg';
 import graphqlSVG from '../../assets/skills/graphql.svg';
-import SkillIcon from '../common/SkillIcon';
 import { Flex, Row, Typography } from 'antd';
+import { type SkillIconData, default as SkillIcon } from '../common/SkillIcon';
 
 const ServerSideSkills: FC = () => {
   const { Text } = Typography;

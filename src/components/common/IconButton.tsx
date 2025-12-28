@@ -1,6 +1,5 @@
 import { Button, Flex, Typography } from 'antd';
-import React, { ReactElement } from 'react';
-import { useState } from 'react';
+import { cloneElement, useState, type ReactElement } from 'react';
 
 const IconButton = ({
   icon,
@@ -17,7 +16,7 @@ const IconButton = ({
       className="w-full"
     >
       <Button type="text" onClick={onClick}>
-        {React.cloneElement(icon, { spin: isHovering, className: 'text-md sm:text-lg font-lato' })}
+        {cloneElement(icon, { spin: isHovering, className: 'text-md sm:text-lg font-lato' })}
         <Text className="text-base sm:text-md font-lato">{text}</Text>
       </Button>
     </Flex>
