@@ -1,5 +1,5 @@
 import { Button } from 'antd';
-import { MouseEventHandler } from 'react';
+import type { MouseEventHandler } from 'react';
 
 export const ThemeButton = ({
   text,

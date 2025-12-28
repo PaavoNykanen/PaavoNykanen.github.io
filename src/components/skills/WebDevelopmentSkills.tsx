@@ -1,5 +1,5 @@
-import { FC } from 'react';
-import { SkillIconData } from '../common/SkillIcon';
+import type { FC } from 'react';
+import type { SkillIconData } from '../common/SkillIcon';
 import reactSVG from '../../assets/skills/react.svg';
 import cssSVG from '../../assets/skills/css-3.svg';
 import htmlSVG from '../../assets/skills/html-5.svg';

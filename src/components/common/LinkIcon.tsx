@@ -1,5 +1,5 @@
-import { Button, ButtonProps } from 'antd';
-import { FC, ReactNode } from 'react';
+import { Button, type ButtonProps } from 'antd';
+import type { FC, ReactNode } from 'react';
 
 interface LinkIconProps extends ButtonProps {
   href: string
@@ -10,12 +10,10 @@ interface LinkIconProps extends ButtonProps {
 
 const LinkIcon: FC<LinkIconProps> = ({
   href, icon, title, isExternal,
-}) => {
-  return (
-    <Button type="text" href={href} icon={icon} target={isExternal ? '_blank' : ''}>
-      {title}
-    </Button>
-  );
-};
+}) => (
+  <Button type="text" href={href} icon={icon} target={isExternal ? '_blank' : ''}>
+    {title}
+  </Button>
+);
 
 export default LinkIcon;

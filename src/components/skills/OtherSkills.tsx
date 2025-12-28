@@ -1,10 +1,9 @@
-import { FC } from 'react';
-import { SkillIconData } from '../common/SkillIcon';
+import type { FC } from 'react';
+import { type SkillIconData, default as SkillIcon } from '../common/SkillIcon';
 import arduinoSVG from '../../assets/skills/arduino.svg';
 import githubSVG from '../../assets/skills/github.svg';
 import copilotSVG from '../../assets/skills/copilot.svg';
 import azureDevopsSVG from '../../assets/skills/azure-devops.svg';
-import SkillIcon from '../common/SkillIcon';
 import { Flex, Row, Typography } from 'antd';
 
 const OtherSkills: FC = () => {

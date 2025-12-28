@@ -1,5 +1,5 @@
-import { Divider, DividerProps, Typography } from 'antd';
-import { FC } from 'react';
+import { type DividerProps, Divider, Typography } from 'antd';
+import type { FC } from 'react';
 
 interface DividerHeaderProps extends DividerProps {
   title: string
