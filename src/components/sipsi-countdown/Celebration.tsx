@@ -1,9 +1,10 @@
 import { Flex } from 'antd';
 import { useMemo } from 'react';
-import chipImage from '../../assets/potato-chip.png';
-import tommi from '../../assets/tommi.jpg';
-import vertti from '../../assets/vertti.jpg';
-import eemil from '../../assets/eemil.jpg';
+
+const chipImage = '/assets/potato-chip.png';
+const tommi = '/assets/tommi.jpg';
+const vertti = '/assets/vertti.jpg';
+const eemil = '/assets/eemil.jpg';
 
 const Celebration = () => {
   const chips = useMemo(

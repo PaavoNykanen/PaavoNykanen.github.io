@@ -1,14 +1,15 @@
 import type { FC } from 'react';
 import type { SkillIconData } from '../common/SkillIcon';
-import reactSVG from '../../assets/skills/react.svg';
-import cssSVG from '../../assets/skills/css-3.svg';
-import htmlSVG from '../../assets/skills/html-5.svg';
-import javascriptSVG from '../../assets/skills/javascript.svg';
-import tailwindSVG from '../../assets/skills/tailwind.svg';
-import typescriptSVG from '../../assets/skills/typescript.svg';
-import viteSVG from '../../assets/skills/vite.svg';
 import SkillIcon from '../../components/common/SkillIcon';
 import { Flex, Row, Typography } from 'antd';
+
+const reactSVG = '/assets/skills/react.svg';
+const cssSVG = '/assets/skills/css-3.svg';
+const htmlSVG = '/assets/skills/html-5.svg';
+const javascriptSVG = '/assets/skills/javascript.svg';
+const tailwindSVG = '/assets/skills/tailwind.svg';
+const typescriptSVG = '/assets/skills/typescript.svg';
+const viteSVG = '/assets/skills/vite.svg';
 
 const WebDevelopmentSkills: FC = () => {
   const { Text } = Typography;

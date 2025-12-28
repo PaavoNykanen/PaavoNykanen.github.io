@@ -1,9 +1,10 @@
 import type { FC } from 'react';
-import csharpSVG from '../../assets/skills/csharp.svg';
-import javaSVG from '../../assets/skills/java.svg';
-import pythonSVG from '../../assets/skills/python.svg';
-import typescriptSVG from '../../assets/skills/typescript.svg';
-import graphqlSVG from '../../assets/skills/graphql.svg';
+
+const csharpSVG = '/assets/skills/csharp.svg';
+const javaSVG = '/assets/skills/java.svg';
+const pythonSVG = '/assets/skills/python.svg';
+const typescriptSVG = '/assets/skills/typescript.svg';
+const graphqlSVG = '/assets/skills/graphql.svg';
 import { Flex, Row, Typography } from 'antd';
 import { type SkillIconData, default as SkillIcon } from '../common/SkillIcon';
 

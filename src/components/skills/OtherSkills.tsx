@@ -1,10 +1,11 @@
 import type { FC } from 'react';
 import { type SkillIconData, default as SkillIcon } from '../common/SkillIcon';
-import arduinoSVG from '../../assets/skills/arduino.svg';
-import githubSVG from '../../assets/skills/github.svg';
-import copilotSVG from '../../assets/skills/copilot.svg';
-import azureDevopsSVG from '../../assets/skills/azure-devops.svg';
 import { Flex, Row, Typography } from 'antd';
+
+const arduinoSVG = '/assets/skills/arduino.svg';
+const githubSVG = '/assets/skills/github.svg';
+const copilotSVG = '/assets/skills/copilot.svg';
+const azureDevopsSVG = '/assets/skills/azure-devops.svg';
 
 const OtherSkills: FC = () => {
   const { Text } = Typography;

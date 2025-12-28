@@ -1,9 +1,10 @@
 import type { FC } from 'react';
 import { type SkillIconData, default as SkillIcon } from '../common/SkillIcon';
-import mysqlSVG from '../../assets/skills/mysql.svg';
-import dynamoSVG from '../../assets/skills/dynamo.svg';
-import s3SVG from '../../assets/skills/s3.svg';
 import { Flex, Row, Typography } from 'antd';
+
+const mysqlSVG = '/assets/skills/mysql.svg';
+const dynamoSVG = '/assets/skills/dynamo.svg';
+const s3SVG = '/assets/skills/s3.svg';
 
 const DataSkills: FC = () => {
   const { Text } = Typography;

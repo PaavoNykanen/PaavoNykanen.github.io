@@ -1,10 +1,11 @@
 import type { FC } from 'react';
 import { type SkillIconData, default as SkillIcon } from '../common/SkillIcon';
-import awsSVG from '../../assets/skills/aws.svg';
-import azureSVG from '../../assets/skills/azure.svg';
-import dockerSVG from '../../assets/skills/docker.svg';
-import kubernetesSVG from '../../assets/skills/kubernetes.svg';
 import { Flex, Row, Typography } from 'antd';
+
+const awsSVG = '/assets/skills/aws.svg';
+const azureSVG = '/assets/skills/azure.svg';
+const dockerSVG = '/assets/skills/docker.svg';
+const kubernetesSVG = '/assets/skills/kubernetes.svg';
 
 const CloudSkills: FC = () => {
   const { Text } = Typography;
