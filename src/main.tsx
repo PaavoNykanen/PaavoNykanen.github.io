@@ -22,7 +22,7 @@ createRoot(document.getElementById('root')!).render(
         <HashRouter>
           <Routes>
             <Route path="/sipsi-countdown" element={<SipsiCountdown />} />
-            <Route path="/*" element={<App />} />
+            <Route path="*" element={<App />} />
           </Routes>
         </HashRouter>
       </StyleProvider>
