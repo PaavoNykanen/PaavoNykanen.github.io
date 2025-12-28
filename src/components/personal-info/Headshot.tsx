@@ -1,12 +1,12 @@
-import { Flex, Image } from 'antd';
+import { Flex } from 'antd';
 import headshot from '../../assets/omakuva.jpg'; // Import the local image file
 
 const Headshot = ({
   className,
 }: { className?: string }) => (
   <Flex>
-    <Image
-      className={className}
+    <img
+      className={`rounded-2xl shadow-lg ${className}`}
       src={headshot}
       alt="Headshot of Paavo Nykänen"
     />

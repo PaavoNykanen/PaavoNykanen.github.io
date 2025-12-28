@@ -16,8 +16,8 @@ const IconButton = ({
       className="w-full"
     >
       <Button type="text" onClick={onClick}>
-        {cloneElement(icon, { spin: isHovering, className: 'text-md sm:text-lg font-lato' })}
-        <Text className="text-base sm:text-md font-lato">{text}</Text>
+        {cloneElement(icon, { spin: isHovering, className: 'text-md sm:text-lg font-lato text-gray-800' })}
+        <Text className="text-base sm:text-md font-lato text-gray-800">{text}</Text>
       </Button>
     </Flex>
   );

@@ -7,7 +7,7 @@ import type { ReactNode } from 'react';
 const PageLayout = ({
   children,
 }: { children: ReactNode }) => (
-  <Layout className="pl-10 pr-10 pt-5 pb-5 min-h-screen flex flex-col bg-gradient-to-br from-yellow-300 to-pink-500">
+  <Layout className="px-2 py-3 md:px-10 md:py-5 min-h-screen flex flex-col bg-gradient-to-br from-yellow-300 to-pink-500">
     <NavigationBar />
     <PageHeader />
     {children}

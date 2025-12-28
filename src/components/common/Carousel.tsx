@@ -20,13 +20,10 @@ const InfoCarousel: FC<InfoCarouselProps> = ({ items, style }) => (
     arrows
     infinite={false}
     style={{
-      marginRight: 10,
-      marginLeft: 10,
-      paddingRight: 40,
-      paddingLeft: 40,
-      paddingBottom: 20,
+      padding: '10px 15px',
       ...style,
     }}
+    className="md:!p-5 lg:!px-10"
   >
     {items.map(item => (
       <CarouselInfo

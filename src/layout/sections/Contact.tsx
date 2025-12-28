@@ -32,47 +32,49 @@ const Contact = () => {
 
   return (
     <Flex className="m-3 flex-col" id="contact">
-      <Text className="text-lg sm:text-xl font-oswald">
+      <Text className="text-lg sm:text-xl font-oswald text-gray-900 drop-shadow-sm font-semibold">
         Contact me!
       </Text>
-      <Card className="m-10 bg-orange-100 border-orange-200">
-        <Flex className="m-3 flex-col md:flex-row justify-center">
-          <Flex className="justify-center">
-            <Headshot className="size-auto sm:size-80" />
-          </Flex>
-          <Flex className="space-y-5 m-3 flex-col">
-            <Tooltip placement="topLeft" title="Copied!" open={phoneTooltip}>
+      <Flex className="justify-center">
+        <Card className="m-2 md:m-10 bg-white/20 backdrop-blur-md border-white/30 shadow-xl w-fit">
+          <Flex className="m-3 flex-col md:flex-row justify-center gap-6">
+            <Flex className="justify-center">
+              <Headshot className="size-auto sm:size-80" />
+            </Flex>
+            <Flex className="space-y-5 m-3 flex-col">
+              <Tooltip placement="topLeft" title="Copied!" open={phoneTooltip}>
+                <IconButton
+                  icon={<PhoneOutlined aria-label="Phone" />}
+                  text={phoneNumber}
+                  onClick={() => activatePhoneTooltip()}
+                />
+              </Tooltip>
+              <Tooltip placement="topLeft" title="Copied!" open={emailTooltip}>
+                <IconButton
+                  icon={<MailOutlined aria-label="Email" />}
+                  text={email}
+                  onClick={() => activateEmailTooltip()}
+                />
+              </Tooltip>
               <IconButton
-                icon={<PhoneOutlined aria-label="Phone" />}
-                text={phoneNumber}
-                onClick={() => activatePhoneTooltip()}
+                icon={<LinkedinOutlined aria-label="LinkedIn" />}
+                text={'Let\'s connect!'}
+                onClick={() => window.open(linkedInUrl, '_blank')}
               />
-            </Tooltip>
-            <Tooltip placement="topLeft" title="Copied!" open={emailTooltip}>
               <IconButton
-                icon={<MailOutlined aria-label="Email" />}
-                text={email}
-                onClick={() => activateEmailTooltip()}
+                icon={<GithubOutlined aria-label="Github" />}
+                text="My projects!"
+                onClick={() => window.open(githubUrl, '_blank')}
               />
-            </Tooltip>
-            <IconButton
-              icon={<LinkedinOutlined aria-label="LinkedIn" />}
-              text={'Let\'s connect!'}
-              onClick={() => window.open(linkedInUrl, '_blank')}
-            />
-            <IconButton
-              icon={<GithubOutlined aria-label="Github" />}
-              text="My projects!"
-              onClick={() => window.open(githubUrl, '_blank')}
-            />
-            <IconButton
-              icon={<InstagramOutlined aria-label="Instagram" />}
-              text="My life!"
-              onClick={() => window.open(instagramUrl, '_blank')}
-            />
+              <IconButton
+                icon={<InstagramOutlined aria-label="Instagram" />}
+                text="My life!"
+                onClick={() => window.open(instagramUrl, '_blank')}
+              />
+            </Flex>
           </Flex>
-        </Flex>
-      </Card>
+        </Card>
+      </Flex>
     </Flex>
   );
 };

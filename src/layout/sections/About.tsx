@@ -9,10 +9,10 @@ const About = () => {
 
   return (
     <Flex className="m-3" id="about">
-      <Card className="w-full ml-10 mr-10 bg-orange-100 border-orange-200">
+      <Card className="w-full ml-2 mr-2 md:ml-10 md:mr-10 bg-white/20 backdrop-blur-md border-white/30 shadow-xl">
         <Flex className="m-3 flex-col md:flex-col lg:flex-row xl:flex-row">
           <Flex vertical className="ml-3">
-            <Text className="text-sm md:text-md font-lato">
+            <Text className="text-sm md:text-md font-lato text-gray-800">
               Hi! I am Paavo, a
               {' '}
               {ageYears}
