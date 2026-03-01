@@ -11,7 +11,7 @@ const AISkills: FC = () => {
     {
       src: copilotSVG,
       alt: 'GitHub Copilot',
-      tooltip: 'Quite a good coding partner. Only quite recently started using it and I am really enjoying it. It helps me a lot with writing code faster and also helps me with learning new languages and frameworks. Also does help with creating unit tests and documentation.',
+      tooltip: 'Quite a good coding partner. Used a lot of its code completion, chat and code generation features. I have used it for debugging, testing, refactoring and creating new features. It has also been used in creating this website.',
       level: 4,
     },
   ];
