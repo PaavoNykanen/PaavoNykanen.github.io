@@ -25,7 +25,15 @@ const NavigationBar = () => {
         <ThemeButton text="About" className="mt-5 mr-3" onClick={() => scrollToAnchor('about')} />
         <ThemeButton text="Career" className="mt-5 mr-3" onClick={() => scrollToAnchor('career')} />
         <ThemeButton text="Skills" className="mt-5 mr-3" onClick={() => scrollToAnchor('skills')} />
-        <ThemeButton text="Contact" className="mt-5 mr-5" onClick={() => scrollToAnchor('contact')} />
+        <ThemeButton text="Contact" className="mt-5 mr-3" onClick={() => scrollToAnchor('contact')} />
+        <ThemeButton
+          text="Download CV"
+          className="mt-5 mr-5"
+          href={`${import.meta.env.BASE_URL}assets/cv4-paavo-nykanen.pdf`}
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        />
       </Flex>
 
       {/* Mobile Navigation */}
@@ -62,6 +70,15 @@ const NavigationBar = () => {
           <ThemeButton text="Career" className="w-full" onClick={() => handleNavClick('career')} />
           <ThemeButton text="Skills" className="w-full" onClick={() => handleNavClick('skills')} />
           <ThemeButton text="Contact" className="w-full" onClick={() => handleNavClick('contact')} />
+          <ThemeButton
+            text="Download CV"
+            className="w-full"
+            href={`${import.meta.env.BASE_URL}assets/cv4-paavo-nykanen.pdf`}
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+            onClick={() => setDrawerOpen(false)}
+          />
         </Flex>
       </Drawer>
     </>
