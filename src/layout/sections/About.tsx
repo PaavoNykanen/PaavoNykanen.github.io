@@ -5,7 +5,7 @@ const About = () => {
 
   return (
     <Flex className="m-3" id="about">
-      <Card className="w-full ml-2 mr-2 md:ml-10 md:mr-10 bg-white/20 backdrop-blur-md border-white/30 shadow-xl">
+      <Card className="w-4/5 mx-auto bg-white/20 backdrop-blur-md border-white/30 shadow-xl">
         <Flex className="m-3 flex-col md:flex-col lg:flex-row xl:flex-row">
           <Flex vertical className="ml-3 space-y-3">
             <Text className="text-sm md:text-md font-lato text-gray-800">
@@ -14,18 +14,13 @@ const About = () => {
               systems and modern application architecture.
             </Text>
             <Text className="text-sm md:text-md font-lato text-gray-800">
-              I enjoy building reliable, scalable software — whether that means designing backend services, developing
-              intuitive frontends, or working with distributed systems in the cloud.
+              I enjoy solving complex problems and building reliable, scalable software
+              from backend services to user-facing applications
+              and designing and working with distributed systems in the cloud.
             </Text>
             <Text className="text-sm md:text-md font-lato text-gray-800">
-              Recently, I&apos;ve become increasingly interested in AI-powered tools and
-              AI-assisted development workflows. I&apos;m fascinated by how intelligent
-              systems can augment software engineering and open up entirely new ways of
-              building and interacting with applications.
-            </Text>
-            <Text className="text-sm md:text-md font-lato text-gray-800">
-              For me, software development is both a technical discipline and a creative craft — a balance between
-              clean architecture, practical problem-solving, and continuous learning.
+              Recently, I’ve been exploring AI-powered tools and AI-assisted development
+              workflows, and I’m excited about how they’re reshaping the way we build software.
             </Text>
           </Flex>
         </Flex>
