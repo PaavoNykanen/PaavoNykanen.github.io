@@ -13,16 +13,19 @@ const DataSkills: FC = () => {
       src: mysqlSVG,
       alt: 'MySQL',
       tooltip: 'My experience with relation databases is mostly with MySQL. I have used it for storing data with a relational model, as well as modeled it with C# entity framework.',
+      level: 2,
     },
     {
       src: dynamoSVG,
       alt: 'DynamoDB',
       tooltip: 'DynamoDB gave me a lot of experience with NoSQL databases. I have used it for storing a lot of different types of data which was sometimes challenging without relations. Indexing and partitioning was also a bit tricky at first.',
+      level: 4,
     },
     {
       src: s3SVG,
       alt: 'S3',
       tooltip: 'Used S3 for storing JSON and HTML files and images.',
+      level: 3,
     },
   ];
 

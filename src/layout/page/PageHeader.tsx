@@ -8,7 +8,7 @@ const PageHeader = () => {
         Paavo Nykänen
       </Text>
       <Text className="text-lg sm:text-xl lg:text-2xl font-oswald">
-        Software Developer
+        Software Engineer focused on cloud-native systems and AI-powered development
       </Text>
     </Flex>
   );

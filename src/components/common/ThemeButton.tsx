@@ -6,11 +6,19 @@ export const ThemeButton = ({
   onClick,
   className,
   variant = 'primary',
+  href,
+  target,
+  rel,
+  download,
 }: {
   text: string
-  onClick: MouseEventHandler<HTMLElement> | undefined
+  onClick?: MouseEventHandler<HTMLElement>
   variant?: 'primary' | 'secondary'
   className?: string
+  href?: string
+  target?: string
+  rel?: string
+  download?: boolean | string
 }) => {
   const primaryStyles = `font-lato text-base font-semibold rounded-2xl  
                           bg-white/30 backdrop-blur-md
@@ -28,6 +36,10 @@ export const ThemeButton = ({
     <Button
       className={`${variant === 'primary' ? primaryStyles : secondaryStyles} ${className}`}
       onClick={onClick}
+      href={href}
+      target={target}
+      rel={rel}
+      download={href ? download : undefined}
     >
       {text}
     </Button>
