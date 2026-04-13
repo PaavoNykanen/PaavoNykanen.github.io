@@ -1,5 +1,6 @@
 import { Card, Flex, Typography } from 'antd';
-import CareerCarousel from '../../components/carousel/CareerCarousel';
+import careerInfoJson from '../../components/carousel/info-items/career.json';
+import CareerCompanyTimeline, { type CareerCompanyItem } from '../../components/timeline/CareerCompanyTimeline';
 
 const { Text } = Typography;
 
@@ -9,7 +10,7 @@ const Career = () => (
       Career
     </Text>
     <Card className="m-2 md:m-10 bg-white/20 backdrop-blur-md border-white/30 shadow-xl">
-      <CareerCarousel />
+      <CareerCompanyTimeline companies={careerInfoJson as CareerCompanyItem[]} />
     </Card>
   </Flex>
 );
