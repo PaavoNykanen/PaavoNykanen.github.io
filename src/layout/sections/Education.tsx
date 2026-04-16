@@ -1,5 +1,6 @@
 import { Card, Flex, Typography } from 'antd';
-import EducationCarousel from '../../components/carousel/EducationCarousel';
+import educationInfoJson from '../../components/carousel/info-items/education.json';
+import InfoTimeline from '../../components/timeline/InfoTimeline';
 
 const { Text } = Typography;
 
@@ -9,7 +10,7 @@ const Education = () => (
       Education
     </Text>
     <Card className="m-2 md:m-10 bg-white/20 backdrop-blur-md border-white/30 shadow-xl">
-      <EducationCarousel />
+      <InfoTimeline items={educationInfoJson} />
     </Card>
   </Flex>
 );
