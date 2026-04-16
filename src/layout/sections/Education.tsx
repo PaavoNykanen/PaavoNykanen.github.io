@@ -1,5 +1,5 @@
 import { Card, Flex, Typography } from 'antd';
-import educationInfoJson from '../../components/carousel/info-items/education.json';
+import educationInfoJson from '../../content/education.json';
 import InfoTimeline from '../../components/timeline/InfoTimeline';
 
 const { Text } = Typography;

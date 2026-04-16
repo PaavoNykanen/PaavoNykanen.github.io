@@ -1,5 +1,5 @@
 import InfoCarousel from '../common/Carousel';
-import educationInfoJson from './info-items/education.json';
+import educationInfoJson from '../../content/education.json';
 
 const EducationCarousel = () => {
   const educationInfo = educationInfoJson;

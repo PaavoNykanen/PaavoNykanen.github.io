@@ -1,5 +1,5 @@
 import { Card, Flex, Typography } from 'antd';
-import careerInfoJson from '../../components/carousel/info-items/career.json';
+import careerInfoJson from '../../content/career.json';
 import CareerCompanyTimeline, { type CareerCompanyItem } from '../../components/timeline/CareerCompanyTimeline';
 
 const { Text } = Typography;
