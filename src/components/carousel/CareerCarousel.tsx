@@ -1,8 +1,13 @@
-import InfoCarousel from '../common/Carousel';
-import careerInfoJson from './info-items/career.json';
+import InfoCarousel, { type CarouselInfoItem } from '../common/Carousel';
+import careerInfoJson from '../../content/career.json';
 
 const CareerCarousel = () => {
-  const careerInfo = careerInfoJson;
+  const careerInfo: CarouselInfoItem[] = careerInfoJson.flatMap(company => (
+    company.positions.map(position => ({
+      ...position,
+      title: `${position.title} - ${company.company}`,
+    }))
+  ));
 
   return (
     <InfoCarousel

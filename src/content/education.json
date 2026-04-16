@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Master of science - University of Jyväskylä",
+    "subTitle": "2022 - 2024",
+    "summary": "Graduated from JYU with an M.Sc. in Information Technology and Computer Science, covering software development, system architectures, IoT, and data science. My thesis, written for Akamon Innovations, focused on error monitoring in distributed cloud systems — producing a framework and an IaC tool for automated monitoring resource provisioning.",
+    "description": "Comign soon!",
+    "image": "ruusu-edit.jpg"
+  },
+  {
+    "title": "Erasmus student exchange - University of Twente",
+    "subTitle": "02.2023 - 06.2023",
+    "summary": "Completed a half-year exchange at the University of Twente in the Netherlands, studying programming principles, software development, data science, and blockchain/distributed ledger technologies. Beyond coursework, the experience sharpened my professional English communication across diverse international teams — and gave me the chance to explore the Netherlands and broader Europe.",
+    "description": "Coming soon!",
+    "image": "twente.jpg"
+  },
+  {
+    "title": "Bachelor of science - University of Jyväskylä",
+    "subTitle": "2019 - 2022",
+    "summary": "Graduated from JYU with a B.Sc. in Information Technology and Computer Science (minor in Mathematics), covering software development, IoT, data science, and machine learning. My thesis explored using smart assistants for smart home control. Actively involved in student association Linkki JKL ry — serving as board secretary and spokesperson in 2022, then leading the Jyväsmetro student event and editing the association magazine 'A href' in 2023.",
+    "description": "",
+    "image": "jm-kyykka-edit.jpg"
+  }
+]

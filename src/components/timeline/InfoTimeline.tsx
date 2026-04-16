@@ -39,7 +39,7 @@ const TimelineRow: FC<TimelineItemProps> = ({ item, index }) => {
                 src={`/assets/${item.image}`}
                 alt={item.title}
               />
-              )
+            )
             : (
               <Flex vertical align="center" justify="center" className="h-56 sm:h-64 lg:h-full lg:min-w-64 bg-white/40 px-4">
                 <Text className="text-base sm:text-lg font-oswald text-gray-700 text-center">
@@ -49,7 +49,7 @@ const TimelineRow: FC<TimelineItemProps> = ({ item, index }) => {
                   {item.title}
                 </Text>
               </Flex>
-              )}
+            )}
         </Flex>
         <Flex vertical className="w-full flex-1 p-4 md:p-5">
           <Title className="!text-base sm:!text-lg !font-oswald !p-0 !m-0 !pb-1 !text-gray-800">
