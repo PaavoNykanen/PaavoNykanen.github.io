@@ -29,7 +29,7 @@ const NavigationBar = () => {
         <ThemeButton
           text="Download CV"
           className="mt-5 mr-5"
-          href={`${import.meta.env.BASE_URL}assets/cv6-paavo-nykanen.pdf`}
+          href={`${import.meta.env.BASE_URL}assets/cv-paavo-nykanen.pdf`}
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -73,7 +73,7 @@ const NavigationBar = () => {
           <ThemeButton
             text="Download CV"
             className="w-full"
-            href={`${import.meta.env.BASE_URL}assets/cv6-paavo-nykanen.pdf`}
+            href={`${import.meta.env.BASE_URL}assets/cv-paavo-nykanen.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             download
